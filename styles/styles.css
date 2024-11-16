@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url(/styles/cabecalho.css);
+@import url(/styles/banner.css);
+@import url(/styles/categorias.css);
+@import url(/styles/promocoes.css);
+@import url(/styles/inscricao.css);
+@import url(/styles/rodape.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-links: #090129;
+  --font-texto: "Poppins", sans-serif;
+  --cor-texto: #EFEFEF;
+  --cor-texto-principal: #0B254B;
+  --cor-texto-secundario: #5E6E89;
+  --fonte-titulo: "Orbitron", sans-serif;
+  --cor-destaque-principal: #FF55DF;
+  --cor-destaque-secundario: #8FFF24;
+  --cor-fundo-botao: #780BF7;
+  --cor-de-fundo: #FFFFFF;
+}
+
+body {
+  width: 100vw;
+}
+
+main {
+  width: 100%;
+}

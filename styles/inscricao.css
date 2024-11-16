@@ -1,0 +1,56 @@
+.inscricao {
+  display: grid;
+  background-color: var(--cor-destaque-secundario);
+  text-align: center;
+  gap: 32px;
+  padding: 40px 12.5%;
+}
+
+.inscricao__titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 31px;
+  line-break: 37.2px;
+  text-align: center;
+  color: #19325C;
+  font-weight: 700;
+}
+
+.inscricao__texto {
+  font-family: var(--font-texto);
+  color: #19325C;
+  line-height: 24px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.inscricao__email {
+  border: 2px solid #090129;
+  border-radius: 32px;
+  width: 678px;
+  background-color: transparent;
+  padding: 24px;
+}
+
+.inscricao__email::placeholder {
+  font-family: var(--font-texto);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.inscricao__botao {
+  background-color: var(--cor-fundo-botao);
+  font-size: 20px;
+  font-family: var(--font-texto);
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 32px;
+  padding: 16px 24px ;
+  margin-left: 10px;
+  margin-top: 10px;
+}
